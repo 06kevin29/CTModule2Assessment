@@ -34,4 +34,8 @@ public class Employee {
     public void setSalary(double salary) {
         this.salary = salary;
     }
+
+    public String toString() {
+        return String.format("{name: %s, age: %s , salary: %s}", name, age, salary);
+    }
 }
